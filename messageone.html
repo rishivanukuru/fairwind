@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Mage Fairwind</title>
+        <title>Message from a Crow</title>
 		<link rel="stylesheet" href="style.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -8,19 +8,24 @@
     </head>
     <body>
         <h1> Greetings, traveller.</h1>
-        <p> You have found a transmuted animal in Wizard Noke's Tower. </p>
+        <p> You have found a transmuted crow in Wizard Noke's Tower. </p>
         <p> This is what it has to say to you - </p>
         <audio controls src="media/crow-call.mp3"></audio>
-        <p> Only Mage Fairwind can speak to the true form of this animal. </p>
+        <br>
+        <p> Only Mage Fairwind can speak to the true form of this crow. </p>
         <p> If you are Mage Fairwind, enter the magic phrase below. </p>
         <input type="text" id="password" />
 	
 		<input id="button" type="button" value="ENGAGE" />
 		<div id="HIDDENDIV" class="hidden">
             
-            <p>A message from Barnacle's trapped wife.</p>
+            <p>A message from Barnacle's trapped wife -</p>
             <audio controls src="media/crow-message.mp3"></audio>
 
+        </div>
+        <div id="HIDDENFAIL" class="hidden">
+            
+            <p>Spell failed! Do not attempt to impersonate Fairwind, or you will be cursed!</p>
         </div>
         <script src="script.js"></script>
     </body>

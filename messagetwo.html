@@ -1,6 +1,32 @@
 <html>
-    <head></head>
+    <head>
+        <title>Message from a Sloth</title>
+		<link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+    </head>
     <body>
-        <H1> Message 2</H1>
+        <h1> Greetings, traveller.</h1>
+        <p> You have found a transmuted sloth in Wizard Noke's Tower. </p>
+        <p> This is what it has to say to you - </p>
+        <audio controls src="media/sloth-call.mp3"></audio>
+        <br>
+        <p> Only Mage Fairwind can speak to the true form of this sloth. </p>
+        <p> If you are Mage Fairwind, enter the magic phrase below. </p>
+        <input type="text" id="password" />
+	
+		<input id="button" type="button" value="ENGAGE" />
+		<div id="HIDDENDIV" class="hidden">
+            
+            <p>A message from a townsperson from Stonob -</p>
+            <audio controls src="media/sloth-message.mp3"></audio>
+
+        </div>
+                <div id="HIDDENFAIL" class="hidden">
+            
+            <p>Spell failed! Do not attempt to impersonate Fairwind, or you will be cursed!</p>
+        </div>
+        <script src="script.js"></script>
     </body>
 </html>

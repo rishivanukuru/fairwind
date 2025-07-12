@@ -31,7 +31,7 @@ h1{
 }
 
 p{
-    font-size: 6vw;
+    font-size: 4vw;
 }
 
 input{
@@ -49,7 +49,10 @@ input{
 audio{
            max-height: 100%;
            max-width: 100%;
-           width : 60vw;
            margin: auto;
            object-fit: contain;
+           transform: scale(2); 
+           transform-origin: top left;
+           margin-bottom: 2em;
+           margin-top: 2em;
          }
