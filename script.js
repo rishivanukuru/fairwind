@@ -16,7 +16,8 @@ function validate(){
   } else {  
      password.focus(); // <-- If you don't do this first, your select code won't work
      password.setSelectionRange(0, password.value.length);   
-     alert('Invalid Password!'); 
+     alert('Spell failed!'); 
+     div.classList.add('hidden');
   }
 }
 

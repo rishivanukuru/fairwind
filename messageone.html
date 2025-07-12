@@ -1,6 +1,27 @@
 <html>
-    <head></head>
+    <head>
+        <title>Mage Fairwind</title>
+		<link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+    </head>
     <body>
-        <H1> Message 1</H1>
+        <h1> Greetings, traveller.</h1>
+        <p> You have found a transmuted animal in Wizard Noke's Tower. </p>
+        <p> This is what it has to say to you - </p>
+        <audio controls src="media/crow-call.mp3"></audio>
+        <p> Only Mage Fairwind can speak to the true form of this animal. </p>
+        <p> If you are Mage Fairwind, enter the magic phrase below. </p>
+        <input type="text" id="password" />
+	
+		<input id="button" type="button" value="ENGAGE" />
+		<div id="HIDDENDIV" class="hidden">
+            
+            <p>A message from Barnacle's trapped wife.</p>
+            <audio controls src="media/crow-message.mp3"></audio>
+
+        </div>
+        <script src="script.js"></script>
     </body>
 </html>
